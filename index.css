@@ -1,0 +1,288 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif
+}
+
+/** GIA TO MENU **/
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    overflow:hidden;
+}
+
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border-radius: 0px 0px 20px 20px;
+}
+
+.logo{
+    width:190px;
+    margin:30px 10;
+    cursor:pointer;
+}
+
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 52px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-family:inherit;
+    font-weight: 900;
+}
+
+nav ul li a:hover{
+    transition: 0.3s;
+    text-shadow: 2px 2px 6px rgb(250, 235, 195);
+}
+
+/** KATW APO TO MENU **/
+
+/** row1 **/
+
+.row1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:100px 0;
+}
+
+.col-1{
+    flex-basis: 50%;
+    position: relative;
+    margin-left:50px;
+}
+
+.col-1 h2{
+    font-size:54px;
+}
+
+.col-1 h3{
+    font-size: 23px;
+    color:rgb(97, 4, 4);
+    font-weight: 120;
+    margin: 5px 0 10px
+}
+
+.col-1::after{
+    content:' ';
+    width:12px;
+    height:55%;
+    background: linear-gradient(black,gray);
+    position: absolute;
+    left: -30px;
+    top: 8px;  
+}
+
+.col-2{
+    position: relative;
+    flex-basis:60%;
+    display:flex;
+    align-items: center;
+}
+
+.col-2 .coffeemachine{
+width:90%; 
+}
+
+.box{
+    position:absolute;
+    right:0;
+    top:0;
+    background: linear-gradient(black,gray);
+    border-radius: 20px 0 0 20px;
+    height:100%;
+    width: 90%;
+    z-index:-1;
+    transform: translateX(50px)
+}
+
+button{
+    width:130px;
+    border:0;
+    padding: 15px 10px;
+    outline:none;
+    color:white;
+    border-radius: 10px;
+    background: black;
+    cursor:pointer;
+    text-align: center;
+    font-size: 15px;
+    left:-40%;
+}
+
+/** row2 **/
+
+.row2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    /** KOUTI GIFTCARD **/
+
+.col-12{
+    border-radius: 20px 20px 20px 20px;
+    flex-basis: 50%;
+    position:relative;
+    align-items: center;
+    background: black;
+    margin: 20px 20px;
+}
+
+.col-12 h1{
+    margin-top:14px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.col-12 h3{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+.col-12 p{
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+.giftcard{
+    opacity: 0.75;
+    transition-duration: 0.6s;
+}
+.giftcard:hover{
+    opacity: 1;
+    box-shadow: 2px 2px 5px white;
+}
+
+    /** KOUTI COFFEE BLEND QUIZ **/
+
+.col-22{
+    border-radius: 20px 20px 20px 20px;
+    flex-basis:50%;
+    position: relative;
+    align-items: center;
+    background: black;
+    margin: 20px 20px;
+}
+
+.col-22 h1{
+    margin-top:14px;
+    color: white;
+    text-align: center;
+    font-weight: 900;
+}
+
+.col-22 h3{
+    color: white;
+    text-align: center;
+    font-size: 27px;
+}
+
+.blendsquiz{
+    width:336px;
+    height:192px;
+    transition-duration: 0.6s;
+}
+
+.blendsquiz:hover{
+    cursor: pointer;
+    box-shadow: 2px 2px 5px white;
+}
+
+.col-22 p{
+    color: white;
+    text-align: center;
+    margin-top: 12px;
+    margin-bottom: 18px;
+    margin-right: 15px;
+    margin-left: 15px;
+    font-size: 13px;
+}
+
+/** GIA TO FOOTER **/
+
+.footer-basic{
+    padding:20px 0;
+    background-color:black;
+    color:#4b4c4d;
+}
+
+.footer-basic ul{
+    padding:0;
+    display:inline;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basic li{
+    padding:0 4px;
+}
+
+.footer-basic ul a{
+    color:white;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer-basic ul a:hover{
+    opacity:1;
+    transition: ease-in;
+    transition-duration: 0.4s;
+}
+
+.footer-basic .copyright {
+    margin-top:12px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: inline-block;
+    margin: 0px 9px 6px 5px; 
+    width: 2.8%;
+    height: 2.8%;
+    opacity: 0.7;
+}
+
+.img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:ease-in;
+    transition-duration: 0.3s;
+}
