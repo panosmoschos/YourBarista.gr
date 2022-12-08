@@ -1,0 +1,210 @@
+* {
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+  font-family: sans-serif;
+}
+
+/*Gia background*/
+
+
+.wrapper {
+  /*max-height: 1200px;*/
+  min-height: 100vh;
+  width: 100%;
+  background-image: url("/About/about-background.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.testimonial {
+  padding: 30px 100px;
+}
+
+article h1 {
+  text-align: center;
+  color: #fff;
+  font-size: 50px;
+  font-weight: 800px;
+  text-transform: uppercase;
+}
+
+article h1:after {
+  content: "";
+  height: 5px;
+  width: 250px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+article {
+  text-align: center;
+  margin-top: 100px;
+}
+
+blokquote {
+  font-size: 30px;
+  color: #fff;
+  margin-top: 30px;
+}
+
+article h4 {
+  text-align: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: 800px;
+  text-transform: uppercase;
+}
+
+article h4:after {
+  content: "";
+  height: 5px;
+  width: 450px;
+  background-color: #fff;
+  display: block;
+  margin: auto;
+}
+
+.video {
+  position: relative;
+  left: 1200px;
+  bottom: 220px;
+}
+
+/** GIA TO MENU prepei na sbistei**/
+
+/**.container {
+  width: 100%;
+  min-height: 100vh;
+  padding-left: 0%;
+  padding-right: 0%;
+  box-sizing: border-box;
+  overflow: hidden;
+} **/
+
+/**Gia ton pinaka**/
+
+.table {
+  border-collapse: collapse;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  /*  margin: 250px 10px;*/
+  color: white;
+  font-size: 1.3em;
+  min-width: 400px;
+  margin-left: 25px;
+}
+
+.table thead tr {
+  text-align: left;
+  font-weight: bold;
+}
+
+.table th,
+.table td {
+  padding: 4px 4px;
+}
+
+/**Gia to menu**/
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  background: #000000;
+  /**border-radius: 0px 0px 20px 20px;**/
+}
+
+.logo {
+  width: 190px;
+  margin: 30px 10;
+  cursor: pointer;
+}
+
+nav {
+  flex: 1;
+  text-align: right;
+}
+
+nav ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 52px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 23px;
+  color: white;
+  font-family: inherit;
+  font-weight: 900;
+}
+
+nav ul li a:hover {
+  transition: 0.3s;
+  text-shadow: 2px 2px 6px rgb(250, 235, 195);
+}
+
+/** GIA TO FOOTER **/
+
+.footer-basic {
+  padding: 20px 0;
+  background-color: black;
+  color: #4b4c4d;
+}
+
+.footer-basic ul {
+  padding: 0;
+  display: inline;
+  text-align: center;
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+.footer-basic li {
+  padding: 0 4px;
+}
+
+.footer-basic ul a {
+  color: white;
+  text-decoration: none;
+  opacity: 0.6;
+}
+
+.footer-basic ul a:hover {
+  opacity: 1;
+  transition: ease-in;
+  transition-duration: 0.4s;
+}
+
+.footer-basic .copyright {
+  margin-top: 12px;
+  text-align: center;
+  font-size: 13px;
+  color: #aaa;
+  margin-bottom: 0;
+}
+
+.social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img {
+  display: inline-block;
+  margin: 0px 9px 6px 5px;
+  width: 2.8%;
+  height: 2.8%;
+  opacity: 0.7;
+}
+
+.img:hover {
+  opacity: 1;
+  cursor: pointer;
+  transition: ease-in;
+  transition-duration: 0.3s;
+}

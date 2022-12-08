@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding:0;
+    font-family:sans-serif
+}
+
+.container{
+    width:100%;
+    min-height: 100vh;
+    padding-left: 0%;
+    padding-right: 0%;
+    box-sizing: border-box;
+    overflow:hidden;
+    background: rgb(228, 220, 220);
+}
+/* Navigation Bar */
+.navbar{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: #000000;
+    border-radius: 0px 0px 20px 20px;
+}
+.logo{
+    width:190px;
+    margin:30px 10;
+    cursor:pointer;
+}
+nav{
+    flex: 1;
+    text-align: right;
+}
+
+nav ul li{
+    list-style: none;
+    display:inline-block;
+    margin-right: 52px;
+}
+nav ul li a{
+    text-decoration: none;
+    font-size: 23px;
+    color: white;
+    font-family:inherit;
+    font-weight: 900;
+}
+
+nav ul li a:hover{
+    transition: 0.3s;
+    text-shadow: 2px 2px 6px rgb(250, 235, 195);
+}
+
+/* Product display */
+
+.main-container{
+    display: flex;
+    flex-wrap: wrap;
+    background: #ededed;
+}
+
+/* PRODUCT No 1 */
+
+.product1{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product1 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product1 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product1 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product1 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product1 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+
+/* PRODUCT no 2 */
+
+.product2{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product2 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product2 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product2 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product2 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product2 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 3 */
+
+.product3{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product3 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product3 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product3 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product3 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product3 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 4 */
+
+.product4{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product4 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product4 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product4 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product4 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product4 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 5 */
+
+.product5{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product5 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product5 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product5 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product5 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product5 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 6 */
+
+.product6{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product6 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product6 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product6 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product6 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product6 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 7 */
+
+.product7{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    border-radius: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product7 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product7 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product7 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product7 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product7 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 8 */
+
+.product8{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product8 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product8 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product8 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product8 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product8 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 9 */
+
+.product9{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product9 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product9 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product9 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product9 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product9 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 10 */
+
+.product10{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product10 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product10 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product10 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product10 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product10 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 11 */
+
+.product11{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product11 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product11 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product11 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product11 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product11 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* PRODUCT No 12 */
+
+.product12{
+    width: 400px;
+    height: 550px;
+    margin: 112px;
+    background: #f8f8ff;
+    border-radius: 10%;
+    box-shadow: 14px 14px 29px 10px rgba(145,145,145,1);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.product12 img{
+    width: 180px;
+    height: 220px;
+    margin: 10%;
+}
+.product12 div p{
+    color: #2f4f4f;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.product12 div h1{
+    color: #2f4f4f;
+    text-align: center;
+    margin-top: 10px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.product12 a button{
+    margin: 40px ;
+    border: 3px solid rgb(61, 60, 60);
+    display: flex;
+    border-radius: 20%;
+    font-size: 30px;
+    padding: 4%;
+    transition-duration: 0.4s;
+    text-decoration: none;
+}
+.product12 button:hover{
+    background-color: #b32727; 
+    color: white;
+}
+
+/* FOOTER */
+
+.footer-basic{
+    padding:20px 0;
+    background-color:black;
+    color:#4b4c4d;
+}
+
+.footer-basic ul{
+    padding:0;
+    display:inline;
+    text-align:center;
+    font-size:18px;
+    line-height:1.6;
+    margin-bottom:0;
+}
+
+.footer-basic li{
+    padding:0 4px;
+}
+
+.footer-basic ul a{
+    color:white;
+    text-decoration:none;
+    opacity:0.6;
+}
+
+.footer-basic ul a:hover{
+    opacity:1;
+    transition: ease-in;
+    transition-duration: 0.4s;
+}
+
+.footer-basic .copyright {
+    margin-top:12px;
+    text-align:center;
+    font-size:13px;
+    color:#aaa;
+    margin-bottom:0;
+}
+
+.social{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img{
+    display: inline-block;
+    margin: 0px 9px 6px 5px; 
+    width: 2.8%;
+    height: 2.8%;
+    opacity: 0.7;
+}
+
+.img:hover{
+    opacity: 1;
+    cursor: pointer;
+    transition:ease-in;
+    transition-duration: 0.3s;
+}
